@@ -10,4 +10,5 @@ services:
       - $PWD:/working
     environment:
       - PYTHONPATH=/working
-    command: jupyter notebook --ip=0.0.0.0 --allow-root 
+      - JUPYTER_ENABLE_LAB=yes
+    command: jupyter lab --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=''
