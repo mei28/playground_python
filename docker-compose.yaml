@@ -1,0 +1,13 @@
+version: "3"
+services:
+  my-jupyter:
+    build: .
+    container_name: tabnet_exp
+    working_dir: /working
+    ports:
+      - 8888:8888
+    volumes:
+      - $PWD:/working
+    environment:
+      - PYTHONPATH=/working
+    command: jupyter notebook --ip=0.0.0.0 --allow-root 

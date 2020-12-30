@@ -1,0 +1,8 @@
+pytorch-tabnet
+pandas 
+sklearn
+numpy
+matplotlib
+seaborn
+torch
+lightgbm
