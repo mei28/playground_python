@@ -2,7 +2,7 @@ version: "3"
 services:
   my-jupyter:
     build: .
-    container_name: tabnet_exp
+    container_name: playground_python
     working_dir: /working
     ports:
       - 8888:8888
