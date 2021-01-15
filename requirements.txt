@@ -7,3 +7,4 @@ seaborn
 torch
 lightgbm
 wget
+fairtorch
