@@ -8,3 +8,7 @@ torch
 lightgbm
 wget
 fairtorch
+lime
+jupyter-kite<2.0.0
+jupyterlab
+nodejs
